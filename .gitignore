@@ -1,0 +1,22 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# IDE and user-specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
