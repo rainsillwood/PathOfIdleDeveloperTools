@@ -8,7 +8,7 @@ namespace PathOfIdleDeveloperTools;
 [HarmonyPatch(typeof(Root), "Update")]
 internal static class ToggleDeveloperToolsPatch
 {
-    private const KeyCode ToggleKey = KeyCode.F6;
+    private static KeyCode ToggleKey = Plugin.configConsoleKey.Value;
 
     private static void Postfix()
     {
